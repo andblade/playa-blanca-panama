@@ -1,0 +1,38 @@
+html{
+	font-family: Arial;
+}
+body{
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imagens/playa-blanca-saboga-panama.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.bottom{
+	bottom: 0px;
+}
+
+
+/* -------------------------- media queires -------------------------- */
+/* CLASSE ESPECIAL PARA A FONTE DO PROGRESS CIRCLE "HTML E CSS" */
+@media screen and (min-width: 1441px) and (max-width: 2560px){
+  	
+}
+
+/* monitores com largura de até 991px */
+@media screen and (max-width: 991.98px) {
+  
+}
+
+/* tablets com largura de até até 767px */
+@media screen and (max-width: 767.98px) {
+  
+}
+
+/* celulares com largura de até 575px */
+@media screen and (max-width: 575.98px) {
+	#content .display-2{
+		font-size: 45px;
+	}
+}
